@@ -15,6 +15,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
     <!-- font awesome logo end -->
+
+    <!-- style strat -->
+    <style>
+      #myButton {
+          padding: 10px 20px;
+          background-color: #007bff; /* Blue color */
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+  </style>
+    <!-- <style>
+      /* Initial background color */
+      body {
+          background-color: #ffffff; /* set initial background color */
+      }
+      .fixed {
+          position: fixed; /* element position fixed */
+          top: 50%; /* positioning */
+          left: 50%; /* positioning */
+          transform: translate(-50%, -50%); /* positioning */
+          background-color: #ff0000; /* set fixed element background color */
+          padding: 20px;
+      }
+      /* Styling for buttons */
+      .btn-container {
+          margin-top: 20px;
+      }
+      .btn {
+          margin-right: 10px;
+      }
+  </style> -->
+
+
+    <!-- style end -->
 </head>
 <body class="space-y-28 m-20 ">
     <header class="space-y-6">
@@ -71,7 +106,7 @@
               <h1 class="mb-5 text-5xl font-bold">End -to -End Travel with</h1>
               <h1 class="mb-5 text-4xl font-bold text-[#1DD100]">P Praribahan</h1>
               <p class="mb-5">Asslamoyaikm, I hope that you all are good. Our paribahan name is P Paribahan. it is popupalr poribahan in bangladesh. We provides that a VIp probanhan.</p>
-              <button onclick="play()" class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
+              <button onclick="scrollToSection('main-play')" class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
             </div>
           </div>
         </div>
@@ -134,7 +169,7 @@
       </section>
 
       <!-- main probahan section -->
-      <section id="main-play" class="bg-slate-50 space-y-6 hidden">
+      <section id="main-play" class="bg-slate-50 space-y-6 ">
         <!-- header  -->
         <div class="space-y-5">
           <h1 class="text-5xl text-center">Rouf Paribahan</h1>
@@ -191,6 +226,7 @@
         </div>
 
         <!-- section ar moddeh section -->
+       
         <section class="">
           <!-- main div -->
           <div class="border-1 border-gray-500  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
@@ -213,9 +249,9 @@
 
               <!-- a div -->
               
-              <div class="grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 space-x-2">
+              <div id="" class="  grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 space-x-2">
                 <h1 class=" text-center rounded-lg m-3 p-3">A</h1>
-                <h1 id="A1" class=" bg-slate-300 text-center rounded-lg m-3 p-3">A1</h1>
+                <h1 id="A1" class=" bg-slate-300 text-center rounded-lg m-3 p-3 ">A1</h1>
                 <h1  id="A2" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">A2</h1>
                 <h1 id="A3" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">A3</h1>
                 <h1 id="A4" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">A4</h1>
@@ -266,7 +302,7 @@
                 <h1 class=" text-center rounded-lg m-3 p-3">E</h1>
                 <h1 id="E1" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3">E1</h1>
                 <h1  id="E2" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">E2</h1>
-                <h1 id="navbar-end" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">E3</h1>
+                <h1 id="E3" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">E3</h1>
                 <h1 id="E4" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">E4</h1>
               </div>
 
@@ -278,7 +314,7 @@
               <div class="grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 m-1 p-1 space-x-2">
                 <h1 class=" text-center rounded-lg m-3 p-3">F</h1>
                 <h1 id="F1" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3">F1</h1>
-                <h1  id="F1" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">F2</h1>
+                <h1  id="F2" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">F2</h1>
                 <h1 id="F3" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">F3</h1>
                 <h1 id="F4" class="border-2 bg-slate-300 text-center rounded-lg m-3 p-3  ">F4</h1>
               </div>
@@ -382,7 +418,7 @@
               <!-- 3 rd part -->
               <div class="flex justify-around gap-44 mx-3">
                 <h1 class="font-bold">Total Price</h1>
-                <h1 class="font-bold">DBT 1100</h1>
+                <h1 class="font-bold">DBT <span id="total-price">00</span></h1>
               </div>
              <!-- 4 th part -->
              <div class="mx-9">
@@ -458,6 +494,7 @@
 
     </footer>
     <!--javascript used area start  -->
+    <script src="javascriptss/a1.js"></script>
     <script src="javascriptss/utility.js"></script>
     <script src="javascriptss/schrrol.js"></script>
 
