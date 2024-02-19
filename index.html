@@ -16,7 +16,7 @@
    
     <!-- font awesome logo end -->
 </head>
-<body class="space-y-28 m-20">
+<body class="space-y-28 m-20 ">
     <header class="space-y-6">
         <!-- nabvar section -->
        <section>
@@ -63,7 +63,7 @@
        <!-- banner section -->
 
 
-       <section>
+       <section id="banner-screen" class="">
         <div class="hero  min-h-screen rounded-lg" style="background-image: url(images/banner.png);">
           <div class="hero-overlay "></div>
           <div class="hero-content text-center text-neutral-content">
@@ -71,7 +71,7 @@
               <h1 class="mb-5 text-5xl font-bold">End -to -End Travel with</h1>
               <h1 class="mb-5 text-4xl font-bold text-[#1DD100]">P Praribahan</h1>
               <p class="mb-5">Asslamoyaikm, I hope that you all are good. Our paribahan name is P Paribahan. it is popupalr poribahan in bangladesh. We provides that a VIp probanhan.</p>
-              <button class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
+              <button onclick="play()" class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@
       </section>
 
       <!-- main probahan section -->
-      <section class="bg-slate-50 space-y-6">
+      <section id="main-play" class="bg-slate-50 space-y-6 hidden">
         <!-- header  -->
         <div class="space-y-5">
           <h1 class="text-5xl text-center">Rouf Paribahan</h1>
@@ -209,17 +209,7 @@
 
 
               
-              <!-- staring div -->
               
-              <div class="grid grid-cols-5 md:grid-cols-5 lg:grid-cols-5 space-x-2">
-                <h1 class="text-center rounded-lg "></h1>
-                
-                <h1 id="" class="text-center rounded-lg  p-3"></h1>
-                <h1  id="" class=" text-center rounded-lg p-3  "></h1>
-                <h1 id="" class= "text-center rounded-lg p-3 "></h1>
-                <h1 id="" class="border-2 bg-slate-300 text-center rounded-lg  p-3  "></h1>
-                <h1 id="" class="border-2 bg-slate-300 text-center rounded-lg  p-3  "></h1>
-              </div>
 
               <!-- a div -->
               
@@ -456,10 +446,20 @@
 
     </main>
 
-    <footer>
+    <footer class="hidden">
+      <div class="success text-center border-2 space-y-6 bg-slate-100 m-2 p-4 rounded-lg">
+        <p class=""><i class="fa-solid fa-check text-6xl text-green-400 m-2 p-2 "></i></p>
+        <h1 class="text-2xl text-green-400">SUCCESS</h1>
+        <p class="text-black font-bold">Thank you for Booking our Bus seats.We are working hard to find best servise abd deals for you.</p>
+        <p>Shortly you will find a confirmation in your email.</p>
+        <button class="btn  rounded-full text-white font-bold bg-green-500 ">Continue</button>
+
+      </div>
 
     </footer>
     <!--javascript used area start  -->
+    <script src="javascriptss/utility.js"></script>
+    <script src="javascriptss/schrrol.js"></script>
 
     <!-- javascript used area end -->
 </body>
