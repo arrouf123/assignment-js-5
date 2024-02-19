@@ -1,9 +1,13 @@
 
 
-function scrollToSection(sectionId) {
-    var section = document.getElementById(sectionId);
+document.getElementById('scroll').addEventListener('click',function(){
+    var section = document.getElementById('hodai');
     section.scrollIntoView({ behavior: 'smooth' });
-}
+})
+
+
+
+
 
 function continueGame(){
     const randomSeat=getRandomSeatnumber();

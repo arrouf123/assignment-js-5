@@ -14,6 +14,17 @@ document.getElementById('D1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 // for D2
@@ -32,6 +43,17 @@ document.getElementById('D2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 // for D3
@@ -50,6 +72,17 @@ document.getElementById('D3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -69,6 +102,17 @@ document.getElementById('D4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 // for E1
@@ -87,6 +131,17 @@ document.getElementById('E1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -106,6 +161,17 @@ document.getElementById('E2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -126,6 +192,17 @@ document.getElementById('E3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -146,6 +223,17 @@ document.getElementById('E4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -167,6 +255,17 @@ document.getElementById('F1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -187,6 +286,17 @@ document.getElementById('F2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -207,6 +317,17 @@ document.getElementById('F3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -227,6 +348,17 @@ document.getElementById('F4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -247,6 +379,17 @@ document.getElementById('G1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -267,6 +410,17 @@ document.getElementById('G2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -287,6 +441,17 @@ document.getElementById('G3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -306,6 +471,17 @@ document.getElementById('G4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -325,6 +501,17 @@ document.getElementById('H1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -345,6 +532,17 @@ document.getElementById('H2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -364,6 +562,17 @@ document.getElementById('H3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -384,6 +593,17 @@ document.getElementById('H4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -403,6 +623,17 @@ document.getElementById('I1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -423,6 +654,17 @@ document.getElementById('I2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -443,6 +685,17 @@ document.getElementById('I3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -463,6 +716,17 @@ document.getElementById('I4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -483,6 +747,17 @@ document.getElementById('J1').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -503,6 +778,17 @@ document.getElementById('J2').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
 })
 
 
@@ -523,6 +809,22 @@ document.getElementById('J3').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
+
+    
+
+
+    
+
 })
 
 
@@ -543,4 +845,14 @@ document.getElementById('J4').addEventListener('click',function(){
     // visibleCouponButton()
     // visibleMakePurchaseBtn()
     console.log(previousTotalPrice)
+
+    const totalSeatStr = document.getElementById('lost-seat').innerText
+    var totalSeat = parseInt(totalSeatStr);
+    totalSeat = totalSeat-1;
+    document.getElementById('lost-seat').innerText = totalSeat
+
+    const bookingSeatStr = document.getElementById('bookingSeat').innerText
+    var bookingSeatInt = parseInt(bookingSeatStr);
+    bookingSeatInt = bookingSeatInt+1;
+    document.getElementById('bookingSeat').innerText = bookingSeatInt
 })

@@ -13,3 +13,18 @@ function getRandomSeatnumber(){
     
 
 }
+
+function hideden(elementId){
+    const element=document.getElementById(elementId)
+    element.classList.add('hidden');
+}
+
+function show(elementId){
+    const element=document.getElementById(elementId)
+    element.classList.remove('hidden');
+}
+
+function play(d){
+    hideden('banner-section')
+    show('f-section')
+}

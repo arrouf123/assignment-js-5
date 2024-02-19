@@ -52,7 +52,7 @@
     <!-- style end -->
 </head>
 <body class="space-y-28 m-20 ">
-    <header class="space-y-6">
+    <header id="banner-section" class="space-y-6 banner-section">
         <!-- nabvar section -->
        <section>
         <nav>
@@ -98,7 +98,7 @@
        <!-- banner section -->
 
 
-       <section id="banner-screen" class="">
+       <section id="banner-section" class="banner-section">
         <div class="hero  min-h-screen rounded-lg" style="background-image: url(images/banner.png);">
           <div class="hero-overlay "></div>
           <div class="hero-content text-center text-neutral-content">
@@ -106,7 +106,7 @@
               <h1 class="mb-5 text-5xl font-bold">End -to -End Travel with</h1>
               <h1 class="mb-5 text-4xl font-bold text-[#1DD100]">P Praribahan</h1>
               <p class="mb-5">Asslamoyaikm, I hope that you all are good. Our paribahan name is P Paribahan. it is popupalr poribahan in bangladesh. We provides that a VIp probanhan.</p>
-              <button onclick="scrollToSection('main-play')" class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
+              <button id="scroll"  class="btn btn-primary bg-[#1DD100] text-black font-bold">Buy Tickets</button>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
 
 
 
-    <main class="space-y-40">
+    <main id="" class="space-y-40">
       <!-- main  for ticekts section -->
       <section class="space-y-8">
         <!-- header div -->
@@ -169,7 +169,7 @@
       </section>
 
       <!-- main probahan section -->
-      <section id="main-play" class="bg-slate-50 space-y-6 ">
+      <section id="banner-section" class="bg-slate-50 space-y-6 ">
         <!-- header  -->
         <div class="space-y-5">
           <h1 class="text-5xl text-center">Rouf Paribahan</h1>
@@ -191,7 +191,7 @@
               </div>
               <div class="flex p-3 gap-2 bg-green-100">
                 <p class="text-green-400"><i class="fa-solid fa-bus"></i></p>
-                <h1 class="text-green-400 rounded-lg">40 seat left</h1>
+                <h1 class="text-green-400 rounded-lg"> <span id="lost-seat">40</span> seat left</h1>
                 
 
               </div>
@@ -227,7 +227,7 @@
 
         <!-- section ar moddeh section -->
        
-        <section class="">
+        <section id="hodai" class="">
           <!-- main div -->
           <div class="border-1 border-gray-500  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <!-- left div -->
@@ -396,7 +396,7 @@
             
               <h1 class="font-bold text-3xl">Select your Seat</h1>
               <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 text-center ">
-                <h1 class="font-bold">Seat <span class="bg-green-500 px-3 rounded-lg text-white font-bold">2</span></h1>
+                <h1 class="font-bold">Seat <span id="bookingSeat" class="bg-green-500 px-3 rounded-lg text-white font-bold">0</span></h1>
                 <h1 class="font-bold">Class</h1>
                 <h class="font-bold">Price</h>
 
@@ -461,7 +461,7 @@
               </label>
 
              </div>
-             <button class="btn btn-block  text-white font-bold bg-green-500 ">Next</button>
+             <button onclick="play()" class="btn btn-block  text-white font-bold bg-green-500 ">Next</button>
              
              
               
@@ -483,7 +483,7 @@
 
     </main>
 
-    <footer class="hidden">
+    <footer id="f-section" class="hidden">
       <div class="success text-center border-2 space-y-6 bg-slate-100 m-2 p-4 rounded-lg">
         <p class=""><i class="fa-solid fa-check text-6xl text-green-400 m-2 p-2 "></i></p>
         <h1 class="text-2xl text-green-400">SUCCESS</h1>
@@ -495,6 +495,7 @@
 
     </footer>
     <!--javascript used area start  -->
+    <script src="javascriptss/seat-left.js"></script>
     <script src="javascriptss/b1.js"></script>
     <script src="javascriptss/a1.js"></script>
     <script src="javascriptss/utility.js"></script>
